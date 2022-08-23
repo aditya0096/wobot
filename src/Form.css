@@ -1,0 +1,90 @@
+.body{
+    display: 'flex';
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    margin-top: -20px;
+    padding: 10px;
+    height: 550px;
+}
+input{
+    padding: 15px;
+    width: 350px;
+}
+.company{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.industry,select{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.head{
+    padding: 5px;
+}
+
+label{
+    align-self: flex-start;
+    margin-left: 72px;
+}
+
+#industry{
+    padding: 15px;
+    width:385px;
+}
+#industry option{
+    padding: 25px;
+}
+
+.size{
+    padding: 5px;
+    width: 65px;
+    margin-right: 10px;
+}
+
+.company-size{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 55px;
+}
+
+fieldset{
+    border: 0px;    
+}
+
+legend{
+    margin-left: -130px;
+}
+
+#register{
+    width: 390px;
+}
+
+button {
+    border-radius: 5px;
+    height: 40px;
+    border: 0.5px solid whitesmoke;
+    background-color: #F0F0F0;
+}
+
+button:active {
+    background: #3766E8;
+    color: white;
+}
+
+button:focus {
+    background: #3766E8;
+    color: white;
+}
