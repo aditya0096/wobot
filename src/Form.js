@@ -7,7 +7,7 @@ function Form() {
     <div className="body">
         <div className="head">
             <img src={image} alt="logo" width="50" height="50"/>
-            <h1>It’s a delight to have you onboard</h1>
+            <h2>It’s a delight to have you onboard</h2>
             <p>Help us know you better</p>
             <p>(This is how we optimize Wobot as per your business needs)</p>
         </div>
